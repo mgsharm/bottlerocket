@@ -5,6 +5,9 @@ project-vendor = "Bottlerocket"
 [vendor.bottlerocket]
 registry = "public.ecr.aws/bottlerocket"
 
+[vendor.mgsharm-dev]
+registry = "992382388798.dkr.ecr.us-west-2.amazonaws.com"
+
 [sdk]
 name = "bottlerocket-sdk"
 version = "0.64.0"
@@ -13,9 +16,9 @@ vendor = "bottlerocket"
 [[kit]]
 name = "bottlerocket-kernel-kit"
 version = "4.3.0"
-vendor = "bottlerocket"
+vendor = "mgsharm-dev"
 
 [[kit]]
 name = "bottlerocket-core-kit"
-version = "10.4.1"
+version = "10.4.0"
 vendor = "bottlerocket"
