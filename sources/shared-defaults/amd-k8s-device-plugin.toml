@@ -1,0 +1,9 @@
+# amd device plugin service
+[services.amd-k8s-device-plugin]
+restart-commands = ["/bin/systemctl try-reload-or-restart amd-k8s-device-plugin.service"]
+
+[metadata.settings.kubelet-device-plugins.amd]
+affected-services = ["amd-k8s-device-plugin"]
+
+[settings.kubelet-device-plugins.amd]
+enabled = true
