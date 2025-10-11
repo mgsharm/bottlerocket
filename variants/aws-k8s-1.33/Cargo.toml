@@ -36,6 +36,9 @@ included-packages = [
     "kubelet-1.33",
     "aws-iam-authenticator",
     "soci-snapshotter",
+    "amd-k8s-device-plugin",
+    "libdrm",
+    "hwloc",
 ]
 kernel-parameters = [
     "console=tty0",
