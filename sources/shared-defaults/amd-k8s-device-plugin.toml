@@ -1,3 +1,0 @@
-# amd device plugin service
-[services.amd-k8s-device-plugin]
-restart-commands = ["/bin/systemctl try-reload-or-restart amd-k8s-device-plugin.service"]
