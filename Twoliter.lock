@@ -17,7 +17,7 @@ digest = "fa38LjBlOQ5bbW81P3lncQ0JJ+vSu9b7RnU6MBvIPT8="
 
 [[kit]]
 name = "bottlerocket-core-kit"
-version = "10.7.1"
+version = "10.7.2"
 vendor = "mgsharm-dev"
-source = "992382388798.dkr.ecr.us-west-2.amazonaws.com/bottlerocket-core-kit:v10.7.1"
-digest = "Jzlevaxb3AjzQpJrhTIAC3/iczmCutIx2tT8LG5mNCA="
+source = "992382388798.dkr.ecr.us-west-2.amazonaws.com/bottlerocket-core-kit:v10.7.2"
+digest = "r8XyGzE5rQwZ4zNOPbC+6pgYe4D2inZx6ncmVlkV+XU="

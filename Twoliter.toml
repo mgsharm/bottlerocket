@@ -20,5 +20,5 @@ vendor = "mgsharm-dev"
 
 [[kit]]
 name = "bottlerocket-core-kit"
-version = "10.7.1"
+version = "10.7.2"
 vendor = "mgsharm-dev"
